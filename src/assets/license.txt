@@ -1,0 +1,259 @@
+TERMS AND CONDITIONS
+
+LimaPOS – Point of Sale & Invoicing Software
+Owned and Operated by
+Limatech (M) Sdn Bhd (Malaysia)
+
+Effective Date: [Insert Date]
+
+1. DEFINITIONS
+
+“Company” refers to Limatech (M) Sdn Bhd, a company incorporated in Malaysia.
+
+“Software” refers to LimaPOS, including all modules, updates, documentation, and related services.
+
+“User” or “Licensee” refers to any individual or entity that installs, accesses, or uses the Software.
+
+“Services” include maintenance, updates, cloud features (if applicable), and support services.
+
+2. ACCEPTANCE OF TERMS
+
+By installing, accessing, or using the Software, the User agrees to be legally bound by these Terms and Conditions.
+
+If the User does not agree, the Software must not be installed or used.
+
+3. GRANT OF LICENSE
+
+Subject to payment of applicable fees and compliance with these Terms, the Company grants a:
+
+Non-exclusive
+
+Non-transferable
+
+Non-sublicensable
+
+Limited license
+
+To use the Software solely for internal business operations.
+
+This Agreement does not transfer ownership of the Software.
+
+4. LICENSE RESTRICTIONS
+
+The User shall not:
+
+Reverse engineer, decompile, or modify the Software.
+
+Copy or distribute the Software except for backup purposes.
+
+Resell, lease, sublicense, or make the Software available to third parties.
+
+Use the Software for unlawful or fraudulent purposes.
+
+Circumvent licensing, activation, or security mechanisms.
+
+Any breach may result in immediate termination.
+
+5. FEES AND PAYMENT
+
+The User agrees to pay all applicable:
+
+License fees
+
+Subscription fees (if applicable)
+
+Maintenance or support fees
+
+Failure to pay may result in suspension or termination.
+
+All fees paid are non-refundable unless otherwise agreed in writing.
+
+6. SUBSCRIPTION AND RENEWAL (If Applicable)
+
+If the Software is subscription-based:
+
+Subscriptions may renew automatically unless cancelled prior to renewal date.
+
+Access may be suspended upon non-payment.
+
+The Company reserves the right to adjust subscription pricing with prior notice.
+
+7. UPDATES AND SUPPORT
+
+The Company may provide updates, bug fixes, patches, or new versions at its discretion.
+
+Support services may be limited to:
+
+Business hours
+
+Active subscription customers
+
+The Company does not guarantee uninterrupted or error-free operation.
+
+8. DATA RESPONSIBILITY
+
+The User is solely responsible for:
+
+Transaction records
+
+Customer information
+
+Inventory data
+
+Financial and accounting records
+
+The Company shall not be liable for:
+
+Data loss due to hardware failure
+
+Malware or cyberattacks
+
+Improper use
+
+Third-party interference
+
+Users are strongly encouraged to maintain regular backups.
+
+9. PERSONAL DATA PROTECTION (PDPA)
+
+Where the Software processes personal data, the User agrees to comply with the Personal Data Protection Act 2010 (Malaysia).
+
+The Company:
+
+Does not own customer transaction data.
+
+Acts only as a software provider.
+
+Is not responsible for the User’s misuse of personal data.
+
+Users must ensure they have obtained proper consent from customers.
+
+10. TAX AND REGULATORY COMPLIANCE
+
+The Software may assist in calculating:
+
+Sales and Service Tax (SST)
+
+Invoices
+
+Financial summaries
+
+However, the Company does not guarantee compliance with Malaysian tax laws.
+
+The User is solely responsible for:
+
+Correct tax configuration
+
+Accurate reporting
+
+Regulatory submissions
+
+The Company shall not be liable for penalties, fines, or tax miscalculations.
+
+11. DISCLAIMER OF WARRANTIES
+
+The Software is provided “AS IS” and “AS AVAILABLE”.
+
+To the fullest extent permitted by Malaysian law, the Company disclaims all warranties, including:
+
+Merchantability
+
+Fitness for a particular purpose
+
+Non-infringement
+
+The Company does not warrant that the Software will meet all business requirements.
+
+12. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by law:
+
+Limatech (M) Sdn Bhd shall not be liable for:
+
+Indirect or consequential damages
+
+Loss of profits
+
+Business interruption
+
+Loss of data
+
+Regulatory penalties
+
+Tax errors
+
+Total liability shall not exceed the amount paid by the User in the preceding twelve (12) months.
+
+13. TERMINATION
+
+This Agreement may be terminated if:
+
+The User breaches these Terms.
+
+Payment obligations are not fulfilled.
+
+The Software is used unlawfully.
+
+Upon termination:
+
+The User must cease using the Software.
+
+All copies must be deleted or destroyed.
+
+Access may be disabled.
+
+Termination does not waive outstanding payment obligations.
+
+14. INTELLECTUAL PROPERTY
+
+All intellectual property rights in the Software, including:
+
+Source code
+
+Design
+
+Trademarks
+
+Branding
+
+Databases
+
+Remain the exclusive property of Limatech (M) Sdn Bhd.
+
+No rights are granted except as expressly stated.
+
+15. CONFIDENTIALITY
+
+Both parties agree to maintain confidentiality of proprietary or sensitive information obtained during the course of business.
+
+16. FORCE MAJEURE
+
+The Company shall not be liable for delays or failures caused by events beyond reasonable control, including:
+
+Natural disasters
+
+Government actions
+
+Internet outages
+
+Power failures
+
+17. GOVERNING LAW AND JURISDICTION
+
+These Terms shall be governed by the laws of Malaysia.
+
+Any disputes shall be subject to the exclusive jurisdiction of the courts of Malaysia.
+
+18. AMENDMENTS
+
+The Company reserves the right to update these Terms at any time.
+
+Continued use of the Software constitutes acceptance of updated Terms.
+
+19. SEVERABILITY
+
+If any provision is found invalid under Malaysian law, the remaining provisions shall remain enforceable.
+
+20. CONTACT INFORMATION
+
+Limatech (M) Sdn Bhd

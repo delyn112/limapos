@@ -1,0 +1,21 @@
+{
+    "name": "limahost/eletron",
+    "description": "This is just eletron composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Limahost\\Eletron\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Delyn",
+            "email": "molabige@limahosting.my"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mike42/escpos-php": "dev-development"
+    }
+}

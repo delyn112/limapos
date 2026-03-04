@@ -1,0 +1,77 @@
+{
+  "name": "limapos",
+  "version": "1.0.1",
+  "description": "This is limapos software, developed in malaysia for desktop app. By limahosting.",
+  "keywords": [
+    "limapos",
+    "limapay"
+  ],
+  "license": "MIT",
+  "author": "Maliq Delyn <molabige@limahosting.my>",
+  "type": "commonjs",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "@electron-forge/maker-deb": "^7.11.1",
+    "@electron-forge/maker-rpm": "^7.11.1",
+    "@electron-forge/maker-squirrel": "^7.11.1",
+    "@electron-forge/maker-zip": "^7.11.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
+    "@electron-forge/plugin-fuses": "^7.11.1",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^40.6.0",
+    "electron-builder": "^26.8.1"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.6",
+    "electron-squirrel-startup": "^1.0.1",
+    "electron-updater": "^6.8.3",
+    "express": "^4.22.1",
+    "node-thermal-printer": "^4.6.0"
+  },
+  "build": {
+    "appId": "com.limahosting.limapos",
+    "productName": "LimaPOS",
+    "directories": {
+      "output": "dist",
+      "buildResources": "src/assets"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "delyn112",
+        "repo": "limapos"
+      }
+    ],
+    "files": [
+      "src/main.js",
+      "src/assets/**/*",
+      "node_modules/**/*",
+      "package.json",
+      "src/preload.js",
+      "pos_app/build/**/*"
+    ],
+    "mac": {
+      "icon": "src/assets/icon.icns",
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "icon": "src/assets/icon.ico",
+      "target": "nsis"
+    },
+    "linux": {
+      "icon": "src/assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "license": "license.txt"
+    }
+  }
+}

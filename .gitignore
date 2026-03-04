@@ -1,0 +1,8 @@
+node_modules/
+pos_app/node_modules/
+pos_app/build/
+dist/
+out/
+release/
+*.log
+.env
