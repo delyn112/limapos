@@ -1,18 +1,21 @@
 {
   "name": "limapos",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "This is limapos software, developed in malaysia for desktop app. By limahosting.",
   "keywords": [
     "limapos",
     "limapay"
   ],
   "license": "MIT",
-  "author": "Maliq Delyn <molabige@limahosting.my>",
+  "author": {
+    "name": "Lima Technology Malaysia Sdn Bhd",
+    "email": "support@limatech.com.my"
+  },
   "type": "commonjs",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder"
+    "dist": "electron-builder --publish always"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.11.1",
@@ -31,7 +34,9 @@
     "electron-squirrel-startup": "^1.0.1",
     "electron-updater": "^6.8.3",
     "express": "^4.22.1",
-    "node-thermal-printer": "^4.6.0"
+    "node-thermal-printer": "^4.6.0",
+    "update-electron-app": "^3.1.2",
+    "uuid": "^13.0.0"
   },
   "build": {
     "appId": "com.limahosting.limapos",
@@ -40,19 +45,25 @@
       "output": "dist",
       "buildResources": "src/assets"
     },
+    "asar": true,
+    "asarUnpack": [
+      "php/**",
+      "www/**"
+    ],
     "publish": [
       {
         "provider": "github",
         "owner": "delyn112",
-        "repo": "limapos"
+        "repo": "limapos",
+        "releaseType": "release"
       }
     ],
     "files": [
-      "src/main.js",
-      "src/assets/**/*",
+      "src/**/*",
+      "php/**/*",
+      "www/**/*",
       "node_modules/**/*",
       "package.json",
-      "src/preload.js",
       "pos_app/build/**/*"
     ],
     "mac": {
@@ -63,7 +74,8 @@
     },
     "win": {
       "icon": "src/assets/icon.ico",
-      "target": "nsis"
+      "target": "nsis",
+      "artifactName": "${productName}-Setup-${version}.${ext}"
     },
     "linux": {
       "icon": "src/assets/icon.png"
