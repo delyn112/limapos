@@ -35,7 +35,7 @@ const createWindow = () => {
         newWindow.loadURL("http://localhost:3000");
     } else {
         // Remove default menu
-      Menu.setApplicationMenu(null);
+         Menu.setApplicationMenu(null);
         const indexPath = path.join(__dirname, '..', 'pos_app', 'build', 'index.html');
         newWindow.loadFile(indexPath);
     }
